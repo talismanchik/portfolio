@@ -1,0 +1,44 @@
+.footerBlock {
+    background-color: #ff8096;
+    padding: 15px;
+}
+
+.footerContainer {
+    padding: 5px;
+    width: 70%;
+    height: 100%;
+    border: 1px solid;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.title {
+    margin: 10px 0;
+    border: 1px solid;
+    box-sizing: border-box;
+}
+
+.messengers {
+    display: flex;
+    border: 1px solid;
+    box-sizing: border-box;
+    gap: 20px;
+    padding: 5px;
+}
+
+.messenger {
+    width: 30px;
+    height: 30px;
+    border: 1px solid;
+    box-sizing: border-box;
+}
+
+.rights{
+    border: 1px solid;
+    box-sizing: border-box;
+    margin: 10px 0;
+}
