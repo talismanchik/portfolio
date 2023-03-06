@@ -1,0 +1,28 @@
+@import "../common/styles/variables";
+
+.projectsBlock {
+  background-color: $bgColor;
+  padding: 0 0 50px;
+
+  .projectsContainer {
+    width: 70%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+
+    .projects {
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      box-sizing: border-box;
+    }
+  }
+}
+
+
+

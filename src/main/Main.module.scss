@@ -1,0 +1,102 @@
+@import "../common/styles/variables";
+
+.mainBlock {
+  height: 100vh;
+  background-color: $bgColor;
+  padding: 50px 0;
+  color: $textColor;
+
+  .mainContainer {
+    width: 70%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+
+    .photo {
+      border-radius: 50%;
+      width: 320px;
+      border: 10px solid rgba(255, 255, 255, .1);
+      box-sizing: border-box;
+      object-fit: cover;
+      @media screen and (max-width: 880px) {
+        width: 60%
+      }
+    }
+
+    .text {
+      width: 50%;
+      box-sizing: border-box;
+
+      & h3 {
+        font-weight: 400;
+        font-size: 19px;
+        font-family: 'Open Sans', sans-serif;
+        line-height: 1.2;
+        opacity: 0.8;
+      }
+
+      & h1 {
+        font-weight: 600;
+        font-size: 42px;
+        font-family: 'Poppins', sans-serif;
+        line-height: 42px;
+
+        & span {
+          color: $primaryColor;
+        }
+      }
+
+      & p {
+        margine: 11px 0 23px;
+        font-weight: 400;
+        font-size: 16px;
+        font-family: 'Open Sans', sans-serif;
+        line-height: 32px;
+        opacity: 0.8;
+      }
+      @media screen and (max-width: 880px) {
+        width: 100%
+      }
+    }
+
+    .mainButton {
+      display: flex;
+
+      .moreAboutButton {
+        margin-right: 25px;
+        background-color: $primaryColor;
+        border: none;
+        color: $textColor;
+      }
+
+
+      .portfolioButton {
+        color: $primaryColor;
+        background-color: rgba(78, 202, 253, 0);
+        border: 1px solid $primaryColor;
+
+      }
+      & button {
+        cursor: pointer;
+        padding: 0 33px;
+        font-weight: 500;
+        line-height: 46px;
+        font-size: 15px;
+        font-family: 'Poppins', sans-serif;
+        letter-spacing: .5px;
+        border-radius: 26px;
+      }
+      @media screen and (max-width: 880px){
+        & button {
+          padding: 0  10px;
+          font-weight: 400;
+          font-size: 15px;
+        }
+      }
+    }
+  }
+}

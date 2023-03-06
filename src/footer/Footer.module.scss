@@ -1,5 +1,7 @@
+@import "../common/styles/variables";
+
 .footerBlock {
-    background-color: #ff8096;
+    background-color: $bgSecondColor;
     padding: 15px;
 }
 
@@ -14,6 +16,7 @@
     justify-content: space-around;
     flex-wrap: wrap;
     box-sizing: border-box;
+    color: $textColor;
 }
 
 .title {

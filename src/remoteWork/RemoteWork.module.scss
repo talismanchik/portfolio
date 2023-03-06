@@ -1,5 +1,7 @@
+@import "../common/styles/variables";
+
 .remoteWorkBlock{
-    background-color: #d37efd;
+    background-color: $bgSecondColor;
     padding: 50px 0;
 
 }
@@ -15,10 +17,6 @@
     justify-content: center;
     box-sizing: border-box;
     padding: 20px;
-}
-
-.title{
-text-align: center;
 }
 
 .remoteWorkButton {

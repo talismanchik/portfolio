@@ -1,0 +1,11 @@
+@import "../../common/styles/variables";
+
+.navigation{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto 20px;
+&>a{
+    color: $textColor;
+}
+}
