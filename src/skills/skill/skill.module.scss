@@ -1,20 +1,35 @@
-.skill {
-  margin: 5px;
-  width: 250px;
-  border: 1px solid;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  padding: 20px 0;
+@import "../../common/styles/variables";
 
-  .icon {
-    border-radius: 10px;
-    width: 80px;
-    height: 80px;
-    border: 1px solid;
-    object-fit: cover;
-    background-color: white;
+.skill {
+  flex: 0 0 28%;
+  max-width: 28%;
+  padding: 0 15px;
+  width: 100%;
+  min-height: 1px;
+
+  .skillText {
+    display: block;
+    margin-bottom: 18px;
+    font-weight: 300;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .chartBar {
+    margin-bottom: 45px;
+    display: block;
+    border-radius: 2px;
+    height: 1px;
+    position: relative;
+    width: 100%;
+    background: #555;
+    .itemProgress {
+      background-color: $primaryColor;
+      border-radius: 2px;
+      height: 100%;
+      left: 0;
+      position: absolute;
+      top: 0;
+    }
   }
 }
-
