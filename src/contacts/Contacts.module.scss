@@ -3,38 +3,185 @@
 .contactsBlock {
   background-color: $bgColor;
   padding: 50px 0;
+  color: $textColor;
+
 
   .contactsContainer {
-    width: 70%;
+    //border: 1px solid $bgColor;
+    width: 90%;
     height: 100%;
-    border: 1px solid;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    flex-wrap: wrap;
     box-sizing: border-box;
     padding: 20px 0;
 
-    .formContainer {
-      width: 80%;
+    .container {
+      border: 1px solid $bgColor;
+      width: 1140px;
       display: flex;
-      flex-direction: column;
-      margin: 0 auto;
-      max-width: 400px;
+      flex-wrap: wrap;
       box-sizing: border-box;
 
-      & > input, & > textarea {
-        margin: 5px;
+      h6 {
+        text-transform: capitalize;
+        margin-bottom: 10px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        font-size: 15px;
       }
-    }
 
-    .sendForm {
-      margin: 15px;
-      padding: 5px 10px;
-      cursor: pointer;
-      border-radius: 10px;
+
+      .contactsBox {
+        //border: 1px solid $bgColor;
+        padding: 0 15px;
+        flex: 0 0 33.3%;
+        max-width: 33.3%;
+        box-sizing: border-box;
+
+
+        .contacts {
+          .contactBox {
+            //border: 1px solid $bgColor;
+            padding: 0 0 25px;
+
+            h6 {
+              margin: 5px 0 0;
+
+              .contactTitle {
+                opacity: .8;
+                margin-bottom: 10px;
+              }
+
+              .icon {
+                //border: 1px solid $bgColor;
+                color: $primaryColor;
+                box-sizing: border-box;
+                margin-right: 10px;
+                display: inline-block;
+              }
+            }
+
+            .contactItems {
+              display: flex;
+            }
+          }
+        }
+      }
+
+      .formContainer {
+        border: 1px solid $bgColor;
+        flex: 0 0 66.6%;
+        max-width: 66.6%;
+        box-sizing: border-box;
+        padding: 0 15px;
+
+        & > p {
+          padding: 0 15px;
+        }
+
+        p {
+          margin: 0 0 24px;
+          font-family: 'Open Sans', sans-serif;
+          font-size: 16px;
+          line-height: 32px;
+        }
+
+        .contactForm {
+          .formRow {
+            display: flex;
+            flex-wrap: wrap;
+
+            .formGroup {
+              flex: 0 0 50%;
+              max-width: 50%;
+              padding: 0 15px;
+              margin: 0 0 30px;
+              box-sizing: border-box;
+
+
+              .formControl {
+                background-color: $bgSecondColor;
+                border: 1px solid #444;
+                color: $textColor;
+                height: 46px;
+                border-radius: 30px;
+                outline: none;
+                box-shadow: none !important;
+                font-size: 16px;
+                font-family: 'Open Sans', sans-serif;
+                width: 100%;
+                display: block;
+                padding: 0.375rem 0.75rem 0.375rem 49px;
+                box-sizing: border-box;
+              }
+
+              .formControlTextArea {
+                height: 143px;
+              }
+
+            }
+
+            .textArea {
+              flex: 0 0 100%;
+              max-width: 100%;
+
+            }
+          }
+
+          .sendForm {
+            padding-left: 15px;
+
+            .button {
+              background-color: #2196F3;
+              box-shadow: none !important;
+              border-radius: 26px;
+              font-weight: 500;
+              height: 46px;
+              line-height: 46px;
+              font-size: 16px;
+              color: #fff;
+              padding: 0 33px;
+              outline: none !important;
+              overflow: hidden;
+              display: inline-block;
+              position: relative;
+              font-family: 'Poppins', sans-serif;
+              letter-spacing: .5px;
+              border: 0;
+            }
+          }
+        }
+      }
+      @media screen and (max-width: 1280px){
+        width: auto;
+        .contactsBox{
+          flex: auto;
+          max-width: 90%;
+        }
+        .formContainer{
+          flex: auto;
+          max-width: 90%;
+          .contactForm {
+            .formRow {
+              flex-direction: column;
+              .formGroup{
+                max-width: 100%;
+              }
+            }
+          }
+
+        }
+      }
+
+      //@media screen and (max-width: 1000px){
+      //  flex-direction: column;
+      //}
+
+
+
     }
   }
 }

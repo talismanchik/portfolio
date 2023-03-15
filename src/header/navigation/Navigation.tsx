@@ -5,9 +5,9 @@ export const Navigation = () => {
     return (
         <div className={style.navigation}>
             <a href="">Main</a>
-            <a href="">Skills</a>
+            <a href="">About me</a>
             <a href="">Projects</a>
-            <a href="">Contacts me</a>
+            <a href="">Contacts</a>
         </div>
     );
 };

@@ -1,11 +1,21 @@
 @import "../../common/styles/variables";
 
 .navigation{
-    width: 300px;
     display: flex;
     justify-content: space-between;
     margin: auto 20px;
 &>a{
     color: $textColor;
+    opacity: 0.8;
+    text-decoration: none;
+    margin-right: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    @media screen and (max-width: 500px){
+        & {
+            margin-right: 20px;
+        }
+
+    }
 }
 }

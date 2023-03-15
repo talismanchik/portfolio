@@ -3,6 +3,7 @@ import Title from "../common/Title/Title";
 import style from './Skills.module.scss'
 import photo from '../assets/image/about_me_photo.png'
 import {Skill} from "./skill/skill";
+import {SectionSeparator} from "../common/sectionSeparator/SectionSeparator";
 
 export const AboutMe = () => {
     return (
@@ -57,9 +58,9 @@ export const AboutMe = () => {
                     <Skill title={'REACT NATIVE'} itemProgress={'40%'}/>
                 </div>
                 <div>
-
                 </div>
             </div>
+            <SectionSeparator/>
         </div>
     );
 };

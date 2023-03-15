@@ -5,6 +5,7 @@
   background-color: $bgColor;
   padding: 50px 0;
   color: $textColor;
+  box-sizing: border-box;
 
   .mainContainer {
     width: 70%;
@@ -51,7 +52,6 @@
       }
 
       & p {
-        margine: 11px 0 23px;
         font-weight: 400;
         font-size: 16px;
         font-family: 'Open Sans', sans-serif;

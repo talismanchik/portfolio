@@ -1,15 +1,15 @@
 @import "../common/styles/variables";
 
 .footerBlock {
-    background-color: $bgSecondColor;
+    background-color: $bgColor;
     padding: 15px;
 }
 
 .footerContainer {
     padding: 5px;
-    width: 70%;
+    width: 90%;
     height: 100%;
-    border: 1px solid;
+    //border: 1px solid;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -21,27 +21,31 @@
 
 .title {
     margin: 10px 0;
-    border: 1px solid;
+    //border: 1px solid;
     box-sizing: border-box;
 }
 
 .messengers {
     display: flex;
-    border: 1px solid;
+    //border: 1px solid;
     box-sizing: border-box;
     gap: 20px;
     padding: 5px;
 }
 
 .messenger {
-    width: 30px;
-    height: 30px;
-    border: 1px solid;
+    text-align: center;
+    padding-top: 4px;
+    width: 35px;
+    height: 35px;
+    //border: 1px solid $primaryColor;
+    //border-radius: 50%;
     box-sizing: border-box;
+    color: $primaryColor;
 }
 
 .rights{
-    border: 1px solid;
+    //border: 1px solid;
     box-sizing: border-box;
     margin: 10px 0;
 }

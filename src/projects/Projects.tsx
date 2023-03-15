@@ -6,6 +6,7 @@ import socialImg from '../assets/image/social_network.png'
 import todoListImg from '../assets/image/todoList.png'
 import taxiImg from '../assets/image/taxi_manager.png'
 import fishingImg from '../assets/image/fishing.png'
+import {SectionSeparator} from "../common/sectionSeparator/SectionSeparator";
 
 export const Projects = () => {
     const socialStyle = {
@@ -40,6 +41,7 @@ export const Projects = () => {
                              description={'sadga kdgvamdka dasvknakd sdknvna ad  kdgvamdka das vknakd sdknvnaad kdgvamdka dasvknakd sdknvnaad'}/>
                 </div>
             </div>
+            <SectionSeparator/>
         </div>
     );
 };
