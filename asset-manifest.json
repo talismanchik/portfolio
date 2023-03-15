@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.52b23fe2.css",
-    "main.js": "/portfolio/static/js/main.84248b3e.js",
+    "main.css": "/portfolio/static/css/main.bb1d6db4.css",
+    "main.js": "/portfolio/static/js/main.0b6190e7.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/about_me_photo.png": "/portfolio/static/media/about_me_photo.d0509a54bba37b05a8cf.png",
     "static/media/taxi_manager.png": "/portfolio/static/media/taxi_manager.c26f098aaa8e516f2e10.png",
@@ -10,12 +10,12 @@
     "static/media/my_photo.jpg": "/portfolio/static/media/my_photo.5a98192571197e5ae045.jpg",
     "static/media/fishing.png": "/portfolio/static/media/fishing.60ad9fc12bb5d9270c0c.png",
     "index.html": "/portfolio/index.html",
-    "main.52b23fe2.css.map": "/portfolio/static/css/main.52b23fe2.css.map",
-    "main.84248b3e.js.map": "/portfolio/static/js/main.84248b3e.js.map",
+    "main.bb1d6db4.css.map": "/portfolio/static/css/main.bb1d6db4.css.map",
+    "main.0b6190e7.js.map": "/portfolio/static/js/main.0b6190e7.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.52b23fe2.css",
-    "static/js/main.84248b3e.js"
+    "static/css/main.bb1d6db4.css",
+    "static/js/main.0b6190e7.js"
   ]
 }
